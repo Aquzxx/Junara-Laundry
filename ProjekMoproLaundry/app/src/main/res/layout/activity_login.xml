@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <View
+        android:id="@+id/logo"
+        android:layout_width="70dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="127dp"
+        android:background="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/junara_laun"
+        android:layout_width="217dp"
+        android:layout_height="43dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="139dp"
+        android:fontFamily="@font/mochiypoponer"
+        android:gravity="top"
+        android:lineHeight="22sp"
+        android:text="JunaraLaundry"
+        android:textColor="#38106A"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="256dp"
+        android:fontFamily="@font/robotoregular"
+        android:gravity="top"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:lineHeight="15sp"
+        android:textColor="#595757"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="322dp"
+        android:fontFamily="@font/robotoregular"
+        android:gravity="top"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:lineHeight="18sp"
+        android:lineSpacingExtra="2sp"
+        android:textColor="#595757"
+        android:textSize="14sp"
+        android:translationY="-0.8sp" />
+
+    <View
+        android:id="@+id/loginbutton"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="387dp"
+        android:background="@drawable/rectangle13_1"
+        />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="217.85dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="94.08dp"
+        android:layout_marginTop="400.5dp"
+        android:fontFamily="@font/robotoregular"
+        android:lineHeight="16sp"
+        android:gravity="center_horizontal|top"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/arrow"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/arrow" />
+
+    <TextView
+        android:id="@+id/don_t_have_"
+        android:layout_width="224dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="452dp"
+        android:fontFamily="@font/robotoregular"
+        android:gravity="center_horizontal|top"
+        android:lineHeight="18sp"
+        android:lineSpacingExtra="2sp"
+        android:text="Don't have an account?"
+        android:textColor="#292929"
+        android:textSize="14sp"
+        android:translationY="-0.8sp" />
+
+    <TextView
+        android:id="@+id/SignUp"
+        android:layout_width="224dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="169dp"
+        android:layout_marginTop="451dp"
+        android:fontFamily="@font/robotoregular"
+        android:gravity="center_horizontal|top"
+        android:lineHeight="18sp"
+        android:lineSpacingExtra="2sp"
+        android:text="Sign up now"
+        android:textColor="#CE1567"
+        android:textSize="14sp"
+        android:translationY="-0.8sp" />
+
+</RelativeLayout>
+

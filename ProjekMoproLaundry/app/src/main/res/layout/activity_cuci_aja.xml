@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CuciAja">
+
+    <!--    T-shirt-->
+
+    <TextView
+        android:id="@+id/verificatio"
+        android:layout_width="257dp"
+        android:layout_height="28dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="69dp"
+        android:layout_marginBottom="693dp"
+        android:fontFamily="@font/mplus2medium"
+        android:gravity="center_horizontal|top"
+        android:text="OrderList"
+        android:textSize="18sp" />
+
+
+    <View
+        android:id="@+id/service"
+        android:layout_width="81dp"
+        android:layout_height="28dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="154dp"
+        android:layout_marginTop="39dp"
+        android:background="@drawable/listcuciaja"
+        android:elevation="4dp" />
+
+    <View
+        android:id="@+id/listback"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="344dp"
+        android:layout_marginBottom="692dp"
+        android:background="@drawable/arrowback"
+        android:clipToOutline="true" />
+
+    <View
+        android:id="@+id/rectangletshirt"
+        android:layout_width="376dp"
+        android:layout_height="72dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/rectangle1" />
+
+    <View
+        android:id="@+id/tshirt"
+        android:layout_width="46.6dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="94dp"
+        android:background="@drawable/tshirt1" />
+
+    <TextView
+        android:id="@+id/tshirtname"
+        android:layout_width="49.78dp"
+        android:layout_height="19dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="91dp"
+        android:fontFamily="@font/robotoregular"
+        android:gravity="top"
+        android:text="T-shirt"
+        android:textColor="#38106A" />
+
+    <TextView
+        android:id="@+id/tshirtprice"
+        android:layout_width="15.89dp"
+        android:layout_height="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="89dp"
+        android:layout_marginTop="116dp"
+        android:alpha="0.5"
+        android:fontFamily="@font/robotoregular"
+        android:gravity="top"
+        android:text="5K"
+        android:textColor="#CE1567"
+        android:textSize="13sp" />
+
+    <View
+        android:id="@+id/tshirtkurang"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="308dp"
+        android:layout_marginTop="105dp"
+        android:background="@drawable/gkurang1" />
+
+    <!--    T-shirt end-->
+
+<!--    shirt-->
+
+    <TextView
+        android:id="@+id/tshirtjumlah"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="331dp"
+        android:layout_marginTop="107dp"
+        android:fontFamily="@font/robotoregular"
+        android:gravity="center_horizontal|top"
+        android:text="0"
+        android:textColor="#38106A"
+        android:textSize="16sp" />
+
+    <View
+        android:id="@+id/tshirttambah"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="105dp"
+        android:background="@drawable/gtambah1" />
+
+    <View
+        android:id="@+id/rectangleshirt"
+        android:layout_width="376dp"
+        android:layout_height="72dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="162dp"
+        android:background="@drawable/rectangle1" />
+
+    <View
+        android:id="@+id/Shirt"
+        android:layout_width="46.6dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="175dp"
+        android:background="@drawable/shirt" />
+
+    <TextView
+        android:id="@+id/shirtname"
+        android:layout_width="49.78dp"
+        android:layout_height="19dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="176dp"
+        android:fontFamily="@font/robotoregular"
+        android:gravity="top"
+        android:text="Shirt"
+        android:textColor="#38106A"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/shirtprice"
+        android:layout_width="15.89dp"
+        android:layout_height="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="89dp"
+        android:layout_marginTop="201dp"
+        android:gravity="top"
+        android:text="6K"
+        android:textColor="#CE1567"
+        android:textSize="13sp" />
+
+    <View
+        android:id="@+id/shirtkurang"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="309dp"
+        android:layout_marginTop="186dp"
+        android:background="@drawable/gkurang1" />
+
+    <!--shirt end-->
+
+<!--    Sleeveless-->
+    <TextView
+        android:id="@+id/shirtjumlah"
+        android:layout_width="27dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="332dp"
+        android:layout_marginTop="188dp"
+        android:gravity="center_horizontal|top"
+        android:text="0" />
+
+    <View
+        android:id="@+id/shirttambah"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="186dp"
+        android:background="@drawable/gtambah1" />
+
+    <View
+        android:id="@+id/rectanglesleeveless"
+        android:layout_width="376dp"
+        android:layout_height="72dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="247dp"
+        android:background="@drawable/rectangle1" />
+
+    <View
+        android:id="@+id/sleeveless"
+        android:layout_width="46.6dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="262dp"
+        android:background="@drawable/sleeveless" />
+
+    <TextView
+        android:id="@+id/sleevelessname"
+        android:layout_width="92dp"
+        android:layout_height="19dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="263dp"
+        android:fontFamily="@font/robotoregular"
+        android:gravity="top"
+        android:text="Sleeveless"
+        android:textColor="#38106A"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/sleevelessprice"
+        android:layout_width="15.89dp"
+        android:layout_height="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="289dp"
+        android:fontFamily="@font/robotoregular"
+        android:gravity="top"
+        android:text="4K"
+        android:textColor="#CE1567"
+        android:textSize="13sp" />
+
+    <View
+        android:id="@+id/sleevelesskurang"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="309dp"
+        android:layout_marginTop="271dp"
+        android:background="@drawable/gkurang1" />
+
+    <!--   sleeveless end  -->
+
+<!--    Skirt-->
+    <TextView
+        android:id="@+id/sleevelessjumlah"
+        android:layout_width="28dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="333dp"
+        android:layout_marginTop="274dp"
+        android:fontFamily="@font/robotoregular"
+        android:gravity="center_horizontal|top"
+        android:text="0"
+        android:textColor="#38106A"
+        android:textSize="16sp" />
+
+    <View
+        android:id="@+id/sleevelesstambah"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="272dp"
+        android:background="@drawable/gtambah1" />
+
+    <View
+        android:id="@+id/rectangleskirt"
+        android:layout_width="376dp"
+        android:layout_height="72dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/rectangle1" />
+
+    <View
+        android:id="@+id/skirt"
+        android:layout_width="46.6dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="345dp"
+        android:background="@drawable/skirt" />
+
+    <TextView
+        android:id="@+id/skirtname"
+        android:layout_width="49.78dp"
+        android:layout_height="19dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="345dp"
+        android:fontFamily="@font/robotoregular"
+        android:gravity="top"
+        android:text="Skirt"
+        android:textColor="#38106A"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/skirtprice"
+        android:layout_width="15.89dp"
+        android:layout_height="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="89dp"
+        android:layout_marginTop="372dp"
+        android:fontFamily="@font/robotoregular"
+        android:gravity="top"
+        android:text="7K"
+        android:textColor="#CE1567"
+        android:textSize="13sp" />
+
+    <View
+        android:id="@+id/skirtkurang"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="308dp"
+        android:layout_marginTop="355dp"
+        android:background="@drawable/gkurang1" />
+
+    <TextView
+        android:id="@+id/skirtjumlah"
+        android:layout_width="28dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="332dp"
+        android:layout_marginTop="358dp"
+        android:fontFamily="@font/robotoregular"
+        android:gravity="center_horizontal|top"
+        android:text="0"
+        android:textColor="#38106A"
+        android:textSize="16sp" />
+
+    <!--    skirt end-->
+
+    <!-- polo-->
+    <View
+        android:id="@+id/skirttambah"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="359dp"
+        android:layout_marginTop="355dp"
+        android:background="@drawable/gtambah1" />
+
+    <View
+        android:id="@+id/rectanglepolo"
+        android:layout_width="376dp"
+        android:layout_height="72dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="409dp"
+        android:background="@drawable/rectangle1" />
+
+    <View
+        android:id="@+id/polo"
+        android:layout_width="46.6dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="425dp"
+        android:background="@drawable/polo" />
+
+    <TextView
+        android:id="@+id/poloname"
+        android:layout_width="49.78dp"
+        android:layout_height="19dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="426dp"
+        android:fontFamily="@font/robotoregular"
+        android:gravity="top"
+        android:text="Polo"
+        android:textColor="#38106A"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/poloprice"
+        android:layout_width="15.89dp"
+        android:layout_height="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="89dp"
+        android:layout_marginTop="450dp"
+        android:fontFamily="@font/robotoregular"
+        android:gravity="top"
+        android:text="5K"
+        android:textColor="#CE1567"
+        android:textSize="13sp" />
+
+    <View
+        android:id="@+id/polokurang"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="309dp"
+        android:layout_marginTop="434dp"
+        android:background="@drawable/gkurang1" />
+
+    <TextView
+        android:id="@+id/polojumlah"
+        android:layout_width="27dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="334dp"
+        android:layout_marginTop="436dp"
+        android:fontFamily="@font/robotoregular"
+        android:gravity="center_horizontal|top"
+        android:text="0"
+        android:textColor="#38106A"
+        android:textSize="16sp" />
+
+    <!--        polo end -->
+
+<!--    Suit-->
+    <View
+        android:id="@+id/polotambah"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="435dp"
+        android:background="@drawable/gtambah1" />
+
+    <View
+        android:id="@+id/rectanglesuit"
+        android:layout_width="376dp"
+        android:layout_height="72dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="489dp"
+        android:background="@drawable/rectangle1" />
+
+    <View
+        android:id="@+id/suit"
+        android:layout_width="46.6dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="504dp"
+        android:background="@drawable/suit" />
+
+    <TextView
+        android:id="@+id/suitname"
+        android:layout_width="49.78dp"
+        android:layout_height="19dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="503dp"
+        android:fontFamily="@font/robotoregular"
+        android:gravity="top"
+        android:text="Suit"
+        android:textColor="#38106A"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/suitprice"
+        android:layout_width="15.89dp"
+        android:layout_height="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="531dp"
+        android:fontFamily="@font/robotoregular"
+        android:gravity="top"
+        android:text="8K"
+        android:textColor="#CE1567"
+        android:textSize="13sp" />
+
+    <View
+        android:id="@+id/suitkurang"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="309dp"
+        android:layout_marginTop="514dp"
+        android:background="@drawable/gkurang1" />
+
+    <TextView
+        android:id="@+id/suitjumlah"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="332dp"
+        android:layout_marginTop="514dp"
+        android:fontFamily="@font/robotoregular"
+        android:gravity="center_horizontal|top"
+        android:text="0"
+        android:textColor="#38106A"
+        android:textSize="16sp" />
+
+    <!--    suit end-->
+    <View
+        android:id="@+id/suittambah"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="514dp"
+        android:background="@drawable/gtambah1" />
+
+    <View
+        android:id="@+id/rectanglejean"
+        android:layout_width="376dp"
+        android:layout_height="72dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="569dp"
+        android:background="@drawable/rectangle1" />
+
+    <View
+        android:id="@+id/jean"
+        android:layout_width="46.6dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="582dp"
+        android:background="@drawable/pants" />
+
+    <TextView
+        android:id="@+id/jeansname"
+        android:layout_width="49.78dp"
+        android:layout_height="19dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="580dp"
+        android:fontFamily="@font/robotoregular"
+        android:gravity="top"
+        android:text="Jeans"
+        android:textColor="#38106A"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/jeansprice"
+        android:layout_width="15.89dp"
+        android:layout_height="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="610dp"
+        android:fontFamily="@font/robotoregular"
+        android:gravity="top"
+        android:text="8K"
+        android:textColor="#CE1567"
+        android:textSize="13sp" />
+
+    <View
+        android:id="@+id/jeanskurang"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="309dp"
+        android:layout_marginTop="593dp"
+        android:background="@drawable/gkurang1" />
+
+    <TextView
+        android:id="@+id/jeansjumlah"
+        android:layout_width="28dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="333dp"
+        android:layout_marginTop="594dp"
+        android:fontFamily="@font/robotoregular"
+        android:gravity="center_horizontal|top"
+        android:text="0"
+        android:textColor="#38106A"
+        android:textSize="16sp" />
+
+    <View
+        android:id="@+id/jeanstambah"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="592dp"
+        android:background="@drawable/gtambah1" />
+
+    <View
+        android:id="@+id/ConfirmOrder"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="656dp"
+        android:background="@drawable/rectangle13_1" />
+
+    <TextView
+        android:id="@+id/confirm_ord"
+        android:layout_width="142.33dp"
+        android:layout_height="19dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="121dp"
+        android:layout_marginTop="670dp"
+        android:fontFamily="@font/mplus2medium"
+        android:gravity="center_horizontal|top"
+        android:text="Confirm Order"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <!--    Menu listt order-->
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="645dp"
+        android:fontFamily="@font/mochiypoponer"
+        android:text="Hello Worldadfasdfa!"
+        android:textAlignment="textEnd"
+        android:textColor="#38106A"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/layanan"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="133dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="565dp"
+        android:fontFamily="@font/robotoregular"
+        android:text="Selamat datang, di Junara Laundry"
+        android:textAlignment="center"
+        android:textColor="#CE1567"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/fotoprofil"
+        android:layout_width="59dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/fotoprofil" />
+
+    <View
+        android:id="@+id/footer"
+        android:layout_width="wrap_content"
+        android:layout_height="112dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginTop="606dp"
+        android:background="@drawable/bg" />
+
+    <View
+        android:id="@+id/home"
+        android:layout_width="33dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="663dp"
+        android:background="@drawable/home"
+        android:clipToOutline="true" />
+
+    <View
+        android:id="@+id/settinguser"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="307dp"
+        android:layout_marginTop="663dp"
+        android:background="@drawable/setting"
+        android:clipToOutline="true" />
+
+    <View
+        android:id="@+id/viewcuciaja"
+        android:layout_width="wrap_content"
+        android:layout_height="174dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="205dp"
+        android:layout_marginRight="214dp"
+        android:layout_marginBottom="352dp"
+        android:background="@drawable/cuciaja" />
+
+    <View
+        android:id="@+id/viewcucisetrika"
+        android:layout_width="wrap_content"
+        android:layout_height="174dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="198dp"
+        android:layout_marginRight="-1dp"
+        android:background="@drawable/cucisetrika" />
+
+    <View
+        android:id="@+id/viewdrycleaning"
+        android:layout_width="wrap_content"
+        android:layout_height="174dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="426dp"
+        android:layout_marginRight="224dp"
+        android:layout_marginBottom="131dp"
+        android:background="@drawable/drycleaning" />
+
+    <View
+        android:id="@+id/viewkarpet"
+        android:layout_width="wrap_content"
+        android:layout_height="174dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="426dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="131dp"
+        android:background="@drawable/karpet" />
+
+    <!--    end menu list order-->
+
+</RelativeLayout>
